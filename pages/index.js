@@ -12,7 +12,7 @@ const Index = () => {
     dispatch(startClock())
   }, [dispatch])
 
-  return <Page title="Index Page" linkTo="/other" NavigateTo="Other Page" />
+  return <Page title="VIVA VEG" linkTo="/other" NavigateTo="Other Page" />
 }
 
 export const getStaticProps = wrapper.getStaticProps(async ({ store }) => {
