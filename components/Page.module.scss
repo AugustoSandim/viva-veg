@@ -1,0 +1,65 @@
+.wrapper {
+  background-color: #f0cb45;
+}
+
+.header {
+  background-color: white;
+}
+
+.title {
+  width: 100px;
+  height: 100px;
+  background-color: #90c648;
+  color: white;
+  margin: 0;
+  text-align: center;
+  font-family: "Gloria Hallelujah", cursive;
+  line-height: 1;
+}
+.content {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 300px;
+  background-color: white;
+  border-radius: 2px;
+  padding: 24px;
+  margin: inherit;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+
+  h3 {
+    color: #7bad32;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-size: 28px;
+    display: block;
+    margin-top: 0;
+  }
+
+  p {
+    color: #555555;
+    font-family: serif;
+    font-weight: normal;
+    font-size: 16px;
+  }
+
+  .action {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+    button {
+      background-color: transparent;
+      border: none;
+      border: 2px solid #7bad32;
+      border-radius: 4px;
+      color: #7bad32;
+      padding: 10px 15px;
+      
+    }
+  }
+}
